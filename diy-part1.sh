@@ -17,7 +17,7 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 # 修正netdata问题 2021.12.28
-cd /openwrt/package/lean
+cd package/lean
 rm -rf luci-app-netdata
 git clone https://github.com/sirpdboy/luci-app-netdata
-cd /openwrt
+cd ../..
